@@ -7,23 +7,32 @@ h1{
 }
 
 h2 {
-    color: black;
-    font-weight: 900;
     font-family: 'Georgia', serif, sans-serif;
+    color: rgb(255, 253, 253);
+    text-decoration: none;
     justify-content: center;
-    
+    text-shadow: 1px 1px 1px  rgb(17, 158, 60);
+}
+
+h3 {
+    font-family: 'Georgia', serif, sans-serif;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    justify-content: center;
+    text-shadow: 1px 1px 1px  rgb(251, 252, 251);
 }
 
 a {
     text-decoration: none;
+    color: blue;
 }
 
 
 #container{
-    min-height: 900px;
+    min-height: 950px;
     margin-left: 10%;
     margin-right: 10%;
-    background: linear-gradient(rgb(214, 149, 185), rgb(228, 198, 220), rgb(241, 214, 235),  rgb(248, 240, 248));
+    background: linear-gradient(rgb(235, 115, 181), rgb(228, 198, 220), rgb(241, 214, 235),  rgb(248, 240, 248));
     background-size: cover;
 
     box-shadow: 3px 5px 7px #666666;
@@ -31,13 +40,33 @@ a {
 }
 
 #header{
-    min-height: 75px;
-    text-align: center;
-
+    background-color:rgb(0, 0, 0);
+    min-width: 100%;
+    min-height: 15%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
     box-shadow: 3px 5px 7px #666666;
     border: 1px solid black;
 }
 
+#page-title{
+    padding: 1%;
+    font-size: 3em;
+    font-weight: 900;
+    font-family:'Merienda', italic, serif;
+    text-shadow: 1px 1px 1px black;
+    color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#links{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
 
 #footer{
     min-height: 50px;

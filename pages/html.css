@@ -7,11 +7,19 @@ h1{
 }
 
 h2 {
-    color: black;
-    font-weight: 900;
     font-family: 'Georgia', serif, sans-serif;
+    color: rgb(255, 253, 253);
+    text-decoration: none;
     justify-content: center;
-    
+    text-shadow: 1px 1px 1px  rgb(17, 158, 60);
+}
+
+h3 {
+    font-family: 'Georgia', serif, sans-serif;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    justify-content: center;
+    text-shadow: 1px 1px 1px  rgb(251, 252, 251);
 }
 
 a {
@@ -20,7 +28,7 @@ a {
 
 
 #container{
-    min-height: 900px;
+    min-height: 950px;
     margin-left: 10%;
     margin-right: 10%;
     background: linear-gradient(rgb(149, 168, 214), rgb(175, 192, 211), rgb(206, 219, 238),  rgb(240, 244, 248));
@@ -33,11 +41,40 @@ a {
 }
 
 #header{
-    min-height: 75px;
-    text-align: center;
-
+    background-color:rgb(0, 0, 0);
+    min-width: 100%;
+    min-height: 15%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
     box-shadow: 3px 5px 7px #666666;
     border: 1px solid black;
+}
+
+#page-title{
+    padding: 1%;
+    font-size: 3em;
+    font-weight: 900;
+    font-family:'Merienda', italic, serif;
+    text-shadow: 1px 1px 1px black;
+    color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#html-tags iframe{
+    width: min(60%, 60rem);
+    height: 40rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#links {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+
 }
 
 
